@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #dcdcdc;
+}
+
+/* H1 */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #bfbfbf;
+  color: #2f5e9e;
+  letter-spacing: 10px;
+  padding: 10px 0;
+}
+
+/* H2 */
+h2 {
+  text-transform: uppercase;
+  color: #7a2d1a;
+  letter-spacing: 6px;
+}
+
+/* Títulos dentro de lista */
+li strong {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Contenido después de los títulos */
+li {
+  font-variant: small-caps;
+}

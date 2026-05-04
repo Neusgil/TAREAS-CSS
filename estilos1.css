@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  font-size: 32px;
+  font-variant: small-caps;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+/* Quitar negrita por defecto */
+strong {
+  font-weight: normal;
+}
+
+/* Solo el contenido (último strong) en negrita y subrayado */
+li strong:last-child {
+  font-weight: bold;
+  text-decoration: underline;
+}
