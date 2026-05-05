@@ -1,7 +1,15 @@
 /* 5º párrafo: fuente descargada */
 @font-face {
-  font-family: 'AkronimCustom';
-  src: url('fonts/Akronim-Regular.ttf');
+  font-family: 'Akronim';
+  src: url('FONTS/Akronim-Regular.eot');
+  src: url('FONTS/Akronim-Regular.eot?#iefix') format('embedded-opentype'),
+      url('FONTS/Akronim-Regular.woff2') format('woff2'),
+      url('FONTS/Akronim-Regular.woff') format('woff'),
+      url('FONTS/Akronim-Regular.ttf') format('truetype'),
+      url('FONTS/Akronim-Regular.svg#Akronim-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* 1º párrafo */
@@ -21,7 +29,7 @@
 
 /* 5º párrafo */
 .p5 {
-  font-family: 'AkronimCustom';
+  font-family: 'Akronim';
   font-size: 24px;
 }
 
